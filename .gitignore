@@ -1,41 +1,8 @@
-# Compiled Lua sources
-luac.out
-
-# luarocks build files
-*.src.rock
-*.zip
-*.tar.gz
-
-# Object files
-*.o
-*.os
-*.ko
-*.obj
-*.elf
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-*.def
-*.exp
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("Name", "Midnight")
+local Tab = Window:NewTab("TabName")
+local Section = Tab:NewSection("Section Name")
+Section:NewButton("ButtonText", "ButtonInfo", function()
+https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source
+    print("Clicked")
+end)
